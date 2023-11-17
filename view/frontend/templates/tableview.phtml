@@ -1,0 +1,32 @@
+<?php
+
+/**
+ * @var \Macademy\Custom\Block\Display $block
+ */
+
+
+?>
+<style>
+table {  font-family: arial, sans-serif;  border-collapse: collapse;  width: 100%;  margin-top: 30px;}
+td, th {  border: 1px solid #dddddd;  text-align: left;  padding: 8px;  }
+tr:nth-child(even) { background-color: #dddddd; }
+.post-id{width:2%} .post-name{width:30%}
+
+</style>
+
+<table>
+  <tr>
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+  </tr>
+ <?php foreach ($block->sayHello() as $car) { ?>
+  </tr>
+  <?php  foreach ($car as $ca) { ?>
+  <td><?php echo $ca; ?></td>
+ <?php } ?>
+</tr>
+<?php } ?>
+</table>
+</body>
+</html>

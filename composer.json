@@ -1,0 +1,21 @@
+{
+    "name": "macademy/custom",
+    "description": "simple custom module",
+    "require": {
+        "php": "^8",
+        "magento/framework": ">=103"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "MIT"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Macademy\\Custom\\": ""
+        }
+    }
+}
