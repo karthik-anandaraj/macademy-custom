@@ -6,7 +6,7 @@
         "magento/framework": ">=103"
     },
     "repositories": [
-{ "type": "vcs", "url": "https://github.com/karthik-anandaraj/macademy-custom" }
+{ "type": "vcs", "url": "https://github.com/karthik-anandaraj/macademy-custom.git" }
 ],
     "type": "magento2-module",
     "version": "1.0.0",
