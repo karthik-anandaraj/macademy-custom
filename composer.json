@@ -5,6 +5,9 @@
         "php": ">=5.4.0"
         "magento/framework": ">=103"
     },
+    "repositories": [
+{ "type": "vcs", "url": "https://github.com/karthik-anandaraj/macademy-custom" }
+],
     "type": "magento2-module",
     "version": "1.0.0",
     "autoload": {
