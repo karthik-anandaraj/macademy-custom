@@ -15,9 +15,4 @@
             "Macademy\\Custom\\": ""
         }
     }
-    ,
-    "repositories": [
-{ "type": "git", 
-    "url": "https://github.com/karthik-anandaraj/macademy-custom.git" }
-]
 }
