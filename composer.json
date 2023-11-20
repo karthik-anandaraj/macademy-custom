@@ -10,7 +10,5 @@
         "psr-4": {
             "Macademy\\Custom\\": ""
         }
-    },
-    "minimum-stability": "dev",
-    "require": {}
+    }
 }
