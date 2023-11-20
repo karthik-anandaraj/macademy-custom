@@ -17,10 +17,6 @@
         "psr-4": {
             "Macademy\\Custom\\": ""
         }
-    },
-    "repositories": [
-            "source": { "type": "git",
-                "reference": "main",
-                "url": "https://github.com/karthik-anandaraj/magento2-module-macademy-custom" }
-        ]
+    }
+    
 }
