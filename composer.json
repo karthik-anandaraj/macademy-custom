@@ -19,6 +19,8 @@
         }
     },
     "repositories": [
-            { "type": "vcs", "url": "https://github.com/karthik-anandaraj/magento2-module-macademy-custom" }
+            "source": { "type": "git",
+                "reference": "main",
+                "url": "https://github.com/karthik-anandaraj/magento2-module-macademy-custom" }
         ]
 }
